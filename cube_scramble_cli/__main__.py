@@ -128,7 +128,7 @@ def parse_user_input(string_from_user: str, selected_scramble: Optional[str]) ->
         else:  # if they provided one last time
             return selected_scramble, 1
     # scrambles which have lowercase letters
-    if parts[0] in ["2X2", "3X3", "4X4", "5X5", "6X6", "7X7", "8x8", "9x9", "10x10", "11x11", "12x12", "13x13", "14x14", "15x15"]:
+    if parts[0] in ["2X2", "3X3", "4X4", "5X5", "6X6", "7X7", "8X8", "9X9", "10X10", "11X11", "12X12", "13X13", "14X14", "15X15"]:
         parts[0] = parts[0].lower()
     # get number of scrambles
     count = 1
